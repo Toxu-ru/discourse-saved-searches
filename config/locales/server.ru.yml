@@ -1,0 +1,12 @@
+ru:
+  site_settings:
+    saved_searches_enabled: "Разрешить пользователям иметь сохраненные поисковые результаты"
+    saved_searches_min_trust_level: "Минимальный уровень доверия, чтобы иметь сохраненные поисковые результаты"
+  system_messages:
+    saved_searches_notification:
+      title: "Поиск Новых Результатов"
+      subject_template: "Поиск Новых Результатов"
+      post_link_text: "[**%{title}**, пост #%{post_number}](%{url})"
+      text_body_template: |
+        Для Вашего поиска были найдены новые результаты!
+        %{posts}
